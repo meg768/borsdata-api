@@ -1,0 +1,23 @@
+{
+  "name": "borsdata-api",
+  "version": "1.0.0",
+  "description": "Börsdata API",
+  "main": "app.js",
+  "scripts": {
+	"git-commit": "git add -A && git commit -m '-' && git push",
+	"goto-github": "open https://github.com/meg768/borsdata-api",
+	"goto-npm": "open https://www.npmjs.com/package/borsdata-api",
+	"npm-publish": "npm run npm-increase-version && npm run git-commit && npm publish",
+	"npm-increase-version": "npm version patch --no-git-tag-version"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meg768/borsdata-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meg768/borsdata-api/issues"
+  },
+  "homepage": "https://github.com/meg768/borsdata-api#readme"
+}
