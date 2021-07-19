@@ -4,12 +4,12 @@
   "description": "Börsdata API",
   "main": "app.js",
   "scripts": {
-	"git-commit": "git add -A && git commit -m '-' && git push",
-	"goto-github": "open https://github.com/meg768/borsdata-api",
-	"goto-npm": "open https://www.npmjs.com/package/borsdata-api",
-	"npm-publish": "npm run npm-increase-version && npm run git-commit && npm publish",
-	"npm-increase-version": "npm version patch --no-git-tag-version"
-},
+    "git-commit": "git add -A && git commit -m '-' && git push",
+    "goto-github": "open https://github.com/meg768/borsdata-api",
+    "goto-npm": "open https://www.npmjs.com/package/borsdata-api",
+    "npm-publish": "npm run npm-increase-version && npm run git-commit && npm publish",
+    "npm-increase-version": "npm version patch --no-git-tag-version"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meg768/borsdata-api.git"
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/meg768/borsdata-api/issues"
   },
-  "homepage": "https://github.com/meg768/borsdata-api#readme"
+  "homepage": "https://github.com/meg768/borsdata-api#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "yow": "^1.0.109"
+  }
 }
